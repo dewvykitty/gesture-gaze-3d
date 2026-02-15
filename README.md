@@ -69,50 +69,8 @@ gesture-gaze-3d/
 
 ### Prerequisites
 
-- Node.js 18+ 
 - npm or yarn
 - Webcam access
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd gesture-gaze-3d
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-5. Allow camera access when prompted
-
-## 🎮 How to Use
-
-1. **Allow Camera Access**: Grant permission for webcam access when prompted
-2. **Look at Objects**: Move your head to aim your gaze at 3D objects - they will glow when hovered
-3. **Pinch to Grab**: Make a pinch gesture (thumb and index finger together) while looking at an object to grab it
-4. **Move Objects**: While pinching, move your hand to drag the object in 3D space
-5. **Release**: Open your hand to release the object
-
-### Debug Mode
-
-Add `?debug=true` to the URL to enable the debug panel, which shows:
-- FPS counter
-- Hand detection status
-- Gaze tracking status
-- Pinch gesture state
-- Real-time position data
-
-## 🧠 Architecture Overview
 
 ### Vision Layer
 - **useWebcam**: Manages webcam stream
